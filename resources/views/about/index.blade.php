@@ -338,3 +338,6 @@
         </div>
     </div>
 @endsection
+@section('footer')
+<h6>footer</h6>
+@endsection

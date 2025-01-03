@@ -25,7 +25,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="{{asset('lib/animate/animate.min.css')}}" />
+    <link rel="stylesheet" href="{{ asset('lib/animate/animate.min.css') }}" />
     <link href="{{ asset('lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cobbler:wght@600&display=swap" rel="stylesheet">
@@ -217,8 +217,9 @@
             </div>
         </div> -->
     <!-- Blog End -->
-
-    @include('footer.footer')
+    @hasSection('footer')
+        @include('footer.footer')
+    @endif
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

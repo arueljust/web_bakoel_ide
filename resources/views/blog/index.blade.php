@@ -6,7 +6,7 @@
             <!-- <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image"> -->
             <!-- <iframe src="img/carousel-1.jpg" frameborder="0" allowfullscreen></iframe> -->
             <video id="myVideo" class="w-100" style="width: 100vw; height: auto;" controls autoplay loop>
-                <source src="/img/compress/blog.mp4" type="video/mp4">
+                <source src="{{ asset('img/compress/blog.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="carousel-caption">
@@ -17,12 +17,12 @@
                         <div class="col-xl-7 animated fadeInLeft">
                             <div class="container text-center py-5" style="max-width: 900px;">
                                 <!-- <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
-                                                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                                    <li class="breadcrumb-item"><a href="about.html">About</a></li>
-                                                    <li class="breadcrumb-item active text-primary">Service</li>
-                                                    <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
-                                                </ol>     -->
+                                                    <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                                        <li class="breadcrumb-item"><a href="about.html">About</a></li>
+                                                        <li class="breadcrumb-item active text-primary">Service</li>
+                                                        <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+                                                    </ol>     -->
                             </div>
                         </div>
                     </div>
@@ -228,6 +228,9 @@
             </div>
         </div>
     </section>
+@endsection
+@section('footer')
+    <h6>footer</h6>
 @endsection
 @push('script')
     <script>
