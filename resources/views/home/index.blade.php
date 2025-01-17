@@ -30,7 +30,6 @@
                 <div class="score-btn">
                     <a href="">start scoring now !</a>
                 </div>
-                <hr>
             </div>
             <div class="plan-container">
                 <h1>who are<span> you</span>? let's <span>customize your experience </span></h1>
@@ -49,9 +48,6 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="chat-img2">
-                <img src="{{ asset('assets/images/chat.png') }}" alt="">
-            </div> --}}
         </div>
     </section>
 

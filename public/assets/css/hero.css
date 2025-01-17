@@ -1,3 +1,7 @@
+@import url(global.css);
+
+/* home hero */
+
 .hero {
     position: relative;
     height: 100vh;
@@ -7,6 +11,7 @@
     /* text-align: center; */
     color: var(--white);
     background: url("../../assets/icon/hero.gif") no-repeat center center/cover;
+    margin-top: 60px;
 }
 
 .hero::before {
@@ -74,6 +79,50 @@
     background: var(--disabled-hover);
 }
 
+/* blog hero */
+.blog-hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: url("../../assets/images/hero_blog.jpg") no-repeat center
+        center/cover;
+    margin-top: 60px;
+    text-align: center; /* Tambahkan ini */
+}
+
+.blog-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.blog-hero-content {
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: center; /* Pastikan ini */
+    margin: 0 auto; /* Tambahkan ini jika diperlukan */
+}
+
+.blog-hero h1 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+.blog-hero p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+/* home responsive */
 @media (max-width: 768px) {
     .hero {
         height: auto;

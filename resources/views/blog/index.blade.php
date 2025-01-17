@@ -1,283 +1,313 @@
 @extends('main')
 @section('title', 'blog')
-@section('carousel')
-    <div class="header-carousel owl-carousel">
-        <div class="header-carousel-item">
-            <!-- <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image"> -->
-            <!-- <iframe src="img/carousel-1.jpg" frameborder="0" allowfullscreen></iframe> -->
-            <video id="myVideo" class="w-100" style="width: 100vw; height: auto;" controls autoplay loop>
-                <source src="{{ asset('img/compress/blog.mp4') }}" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="carousel-caption">
-                <div class="container">
-                    <div class="row gy-0 gx-5">
-                        <div class="text-sm-center text-md-end"></div>
-                        <div class="col-lg-0 col-xl-5"></div>
-                        <div class="col-xl-7 animated fadeInLeft">
-                            <div class="container text-center py-5" style="max-width: 900px;">
-                                <!-- <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
-                                                    <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                                        <li class="breadcrumb-item"><a href="about.html">About</a></li>
-                                                        <li class="breadcrumb-item active text-primary">Service</li>
-                                                        <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
-                                                    </ol>     -->
+@section('hero')
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>learn, grow, and succeed with expert insights</h1>
+            <br>
+            <p>browse articles,video guides,and creative tips.</p>
+        </div>
+    </section>
+@endsection
+@section('content')
+    <section class="blog-section">
+        <h1>Latest articles</h1>
+        <div class="blog-container">
+            <div class="container1">
+                <input type="text" name="search" id="search" placeholder="Search articles...">
+            </div>
+            <div class="container2">
+                <div class="pagination">
+                    <div class="page" id="page1">
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/blog1.jpg') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/webinar1.jpg') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/office.webp') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione.</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/team.webp') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione.</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page" id="page2" style="display: none;">
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/office.webp') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/bg1.jpg') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/office.webp') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/blog1.jpg') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page" id="page3" style="display: none;">
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/blog1.jpg') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/webinar1.jpg') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/office.webp') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione.</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <img src="{{ asset('assets/images/team.webp') }}" alt="">
+                            <div class="desc">
+                                <div class="date">
+                                    <h1>Des <br><span>31</span></h1>
+                                </div>
+                                <div class="desc-content">
+                                    <h3>
+                                        Lorem ipsum dolor sit amet
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
+                                        laboriosam, voluptatem ratione.</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn">
+                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-@endsection
-@section('content')
-    <section class="meetings-page" id="meetings">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="filters">
-                                <ul>
-                                    <li data-filter="*" class="active">All Blogs</li>
-                                    <li data-filter=".soon">Soon</li>
-                                    <li data-filter=".imp">Important</li>
-                                    <li data-filter=".att">Attractive</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="row grid">
-                                <div class="col-lg-4 templatemo-item-col all soon">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-01.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>12</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>New Lecturers Meeting</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all imp">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-02.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>14</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Online Teaching Techniques</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all soon">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-03.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>16</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Network Teaching Concept</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all att">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-04.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>18</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Online Teaching Tools</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all att">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-02.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>22</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>New Teaching Techniques</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all imp">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-03.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>24</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Technology Conference</h4>
-                                            </a>
-                                            <p>TemplateMo is the best website<br>when it comes to Free CSS.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all imp att">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-01.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>27</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Online Teaching Techniques</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all soon imp">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-02.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>28</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Instant Lecture Design</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 templatemo-item-col all att soon">
-                                    <div class="meeting-item">
-                                        <div class="thumb">
-                                            <a href="meeting-details.html"><img src="assets2/images/meeting-03.jpg"
-                                                    alt=""></a>
-                                        </div>
-                                        <div class="down-content" style="background-color: #f7f3f3;">
-                                            <div class="date">
-                                                <h6>Nov <span>30</span></h6>
-                                            </div>
-                                            <a href="meeting-details.html">
-                                                <h4>Online Social Networking</h4>
-                                            </a>
-                                            <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="pagination">
-                                <ul>
-                                    <li><a href="#">1</a></li>
-                                    <li class="active"><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="pagination-controls">
+                    <button onclick="prevPage()"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div id="pagination-numbers" class="pagination-numbers"></div>
+                    <button onclick="nextPage()"><i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
     </section>
 @endsection
-@section('footer')
-    <h6>footer</h6>
-@endsection
 @push('script')
     <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+        let currentPage = 1;
+        const totalPages = 3;
+        const maxVisibleNumbers = 5; // Jumlah maksimum angka pagination yang ditampilkan
 
-        var showSection = function showSection(section, isAnimate) {
-            var
-                direction = section.replace(/#/, ''),
-                reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-                reqSectionPos = reqSection.offset().top - 0;
+        function showPage(pageNumber) {
+            // Tampilkan halaman konten sesuai nomor
+            for (let i = 1; i <= totalPages; i++) {
+                document.getElementById(`page${i}`).style.display = i === pageNumber ? 'grid' : 'none';
+            }
+            currentPage = pageNumber;
 
-            if (isAnimate) {
-                $('body, html').animate({
-                        scrollTop: reqSectionPos
-                    },
-                    800);
-            } else {
-                $('body, html').scrollTop(reqSectionPos);
+            // Perbarui tombol pagination
+            updatePaginationNumbers();
+        }
+
+        function prevPage() {
+            if (currentPage > 1) {
+                showPage(currentPage - 1);
+            }
+        }
+
+        function nextPage() {
+            if (currentPage < totalPages) {
+                showPage(currentPage + 1);
+            }
+        }
+
+        function updatePaginationNumbers() {
+            const paginationNumbers = document.getElementById('pagination-numbers');
+            paginationNumbers.innerHTML = '';
+
+            // Tentukan angka pertama dan terakhir yang akan ditampilkan
+            let start = Math.max(currentPage - Math.floor(maxVisibleNumbers / 2), 1);
+            let end = Math.min(start + maxVisibleNumbers - 1, totalPages);
+
+            // Penyesuaian jika di dekat awal/akhir
+            if (end - start + 1 < maxVisibleNumbers) {
+                start = Math.max(end - maxVisibleNumbers + 1, 1);
             }
 
-        };
-
-        var checkSection = function checkSection() {
-            $('.section').each(function() {
-                var
-                    $this = $(this),
-                    topEdge = $this.offset().top - 80,
-                    bottomEdge = topEdge + $this.height(),
-                    wScroll = $(window).scrollTop();
-                if (topEdge < wScroll && bottomEdge > wScroll) {
-                    var
-                        currentId = $this.data('section'),
-                        reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-                    reqLink.closest('li').addClass('active').
-                    siblings().removeClass('active');
+            // Buat tombol angka pagination
+            for (let i = start; i <= end; i++) {
+                const button = document.createElement('button');
+                button.textContent = i;
+                button.classList.add('pagination-btn');
+                if (i === currentPage) {
+                    button.classList.add('active'); // Tambahkan kelas aktif untuk halaman saat ini
                 }
-            });
-        };
+                button.addEventListener('click', () => showPage(i));
+                paginationNumbers.appendChild(button);
+            }
+        }
 
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function(e) {
-            e.preventDefault();
-            showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function() {
-            checkSection();
+        // Inisialisasi saat dokumen siap
+        document.addEventListener('DOMContentLoaded', () => {
+            showPage(currentPage);
         });
     </script>
 @endpush

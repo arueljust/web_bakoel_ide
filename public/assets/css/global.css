@@ -12,6 +12,7 @@
     --disabled-hover: #949393;
     --disabled-text: #a9a9a9;
     --soft-black: #1f1f1f;
+    --not-active: #f0f0f0;
 }
 
 * {
