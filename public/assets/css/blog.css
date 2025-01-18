@@ -1,5 +1,15 @@
 @import url(global.css);
 
+.blog-section {
+    margin-top: 50px;
+}
+
+.blog-section h1 {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
 .blog-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -7,13 +17,52 @@
 }
 
 .container1 {
+    position: relative;
     grid-column: span 1;
     padding-left: 60px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .container2 {
     grid-column: span 3;
     padding-right: 60px;
+}
+
+.blog-container .container1 input {
+    border: var(--not-active);
+    background-color: transparent;
+    padding: 8px 40px 8px 13px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.blog-container .container1 .search-blog {
+    position: absolute;
+    transform: translateY(-120%);
+    right: 15px;
+    font-size: 18px;
+    color: #888;
+    pointer-events: none;
+}
+
+.blog-container .container1 .tags {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.blog-container .container1 .tags p {
+    color: var(--dark);
+    margin: 15px;
+}
+
+.blog-container .container1 .tags .active {
+    color: var(--white);
+    background: linear-gradient(to top, var(--primary), var(--secondary));
+    border-radius: 5px;
+    padding: 8px;
 }
 
 .pagination {
@@ -34,7 +83,7 @@
     text-align: center;
     position: relative;
     border-radius: 10px;
-    background-color: var(--not-active);
+    background-color: #f5844226;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
 

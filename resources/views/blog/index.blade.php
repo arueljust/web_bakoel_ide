@@ -15,6 +15,15 @@
         <div class="blog-container">
             <div class="container1">
                 <input type="text" name="search" id="search" placeholder="Search articles...">
+                <div class="search-blog">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="tags">
+                    <p class="active">All Blogs</p>
+                    <p>Digital Marketing</p>
+                    <p>Branding Tips</p>
+                    <p>Success Stories</p>
+                </div>
             </div>
             <div class="container2">
                 <div class="pagination">
