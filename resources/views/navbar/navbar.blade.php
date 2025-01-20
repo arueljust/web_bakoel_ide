@@ -7,11 +7,12 @@
     <ul class="nav-links">
         <li><a href="{{ route('home') }}" class="{{ Request::is('/*') ? 'active' : '' }}">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Product & Services</a></li>
+        <li><a href="#">Product</a></li>
         <li><a href="#">Templates</a></li>
-        <li><a href="{{ route('blog') }}" class="{{ Request::is('blog*') ? 'active' : '' }}">Blog & Tutorials</a></li>
+        <li><a href="{{ route('blog') }}" class="{{ Request::is('blog*') ? 'active' : '' }}">Blogs</a></li>
+        <li><a href="{{ route('webinar') }}"class="{{ Request::is('webinar*') ? 'active' : '' }}">Webinar</a></li>
         <li><a href="#">Partnerships</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
     </ul>
     <div class="icon-navbar">
         <div class="search-bar">

@@ -60,11 +60,6 @@
                         for <span class="colored">every</span> need
                     </em>
                 </h1>
-                <select name="" id="" class="sort_by">
-                    <option value="" disabled selected>Sort By</option>
-                    <option value="">asc</option>
-                    <option value="">desc</option>
-                </select>
                 <div class="templates-view">
                     <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
                     <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">

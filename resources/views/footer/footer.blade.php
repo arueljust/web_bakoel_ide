@@ -7,9 +7,9 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blogs</a></li>
+                    <li><a href="{{ route('blog') }}">Blogs</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>

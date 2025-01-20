@@ -5,13 +5,13 @@
         <div class="blog-hero-content">
             <h1>learn, grow, and succeed with expert insights</h1>
             <br>
-            <p>browse articles,video guides,and creative tips.</p>
+            <p>browse articles, video guides, and creative tips.</p>
         </div>
     </section>
 @endsection
 @section('content')
     <section class="blog-section">
-        <h1>Latest articles</h1>
+        <h1 class="blog-title">Latest articles</h1>
         <div class="blog-container">
             <div class="container1">
                 <input type="text" name="search" id="search" placeholder="Search articles...">
@@ -43,7 +43,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -61,7 +63,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -79,7 +83,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -97,7 +103,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +125,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -135,7 +145,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -153,7 +165,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -171,7 +185,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +207,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -209,7 +227,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -227,7 +247,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -245,7 +267,9 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="">view article <i class="fa-solid fa-arrow-right-long"></i></a>
+                               <a href="" class="blog-view-article-btn">view article <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>

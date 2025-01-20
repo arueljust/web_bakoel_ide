@@ -122,6 +122,50 @@
     margin: 0 auto;
 }
 
+
+/* webinar hero */
+.webinar-hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: url("../../assets/images/webinar1.jpg") no-repeat center
+        center/cover;
+    margin-top: 60px;
+    text-align: center; /* Tambahkan ini */
+}
+
+.webinar-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.webinar-hero-content {
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: center; /* Pastikan ini */
+    margin: 0 auto; /* Tambahkan ini jika diperlukan */
+}
+
+.webinar-hero h1 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+.webinar-hero p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
 /* home responsive */
 @media (max-width: 768px) {
     .hero {

@@ -4,7 +4,7 @@
     margin-top: 50px;
 }
 
-.blog-section h1 {
+.blog-section .blog-title {
     margin-left: 60px;
     margin-bottom: 20px;
     font-size: 30px;
@@ -133,11 +133,12 @@
 .content-item .blog-btn {
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 35%;
     align-items: center;
 }
 
-.content-item .blog-btn a {
+.content-item .blog-btn .blog-view-article-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,6 +149,20 @@
     background: linear-gradient(to top, var(--primary), var(--secondary));
     border-radius: 5px;
     color: var(--white);
+    padding: 8px 13px;
+}
+
+.content-item .blog-btn .blog-bookmark-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid var(--primary);
+    background-color: var(--white);
+    border-radius: 5px;
+    color: var(--primary);
     padding: 8px 13px;
 }
 
