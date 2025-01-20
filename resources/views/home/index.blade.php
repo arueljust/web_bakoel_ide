@@ -107,7 +107,7 @@
             <div class="testimonial-container">
                 <div class="left-arrow"><img src="{{ asset('assets/icon/arrow-left.png') }}" alt=""></div>
                 <div class="testimonial-img">
-                    <img src="{{ asset('img/Dwi Nauli.jpg') }}" alt="">
+                    <img src="{{ asset('img/Dwi_Nauli.jpg') }}" alt="">
                 </div>
                 <div class="testimonial-desc">
                     <div class="container">

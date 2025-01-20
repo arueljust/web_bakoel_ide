@@ -3,6 +3,7 @@
 :root {
     --primary: #f26522;
     --secondary: #f58342;
+    --primary-bg-color: #fbd0ad;
     --white: #fff;
     --dark: #000000;
     --disabled: #b0afaf;
@@ -13,6 +14,12 @@
     --disabled-text: #a9a9a9;
     --soft-black: #1f1f1f;
     --not-active: #f0f0f0;
+    --red: #fc423f;
+    --red-secondary: #ff6967;
+    --info: #00d2f7;
+    --info-secondary: #5beeff;
+    --success: #77cc22;
+    --success-secondary: #91dc3f;
 }
 
 * {
