@@ -385,25 +385,93 @@
 
 .contact-section .our-team-container .our-team-img .img-container1 {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 250px;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-/* .contact-section .our-team-container .our-team-img .img-container1::before {
-    content: "";
+.contact-section .our-team-container .our-team-img .img-container1:hover {
+    transform: scale(1.05);
+}
+
+.contact-section .our-team-container .our-team-img .img-container1 .overlay {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, #fbd0ad 5%, #42424200);
-    z-index: 1;
-} */
+    height: 30%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-section
+    .our-team-container
+    .our-team-img
+    .img-container1
+    .overlay
+    .name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-section
+    .our-team-container
+    .our-team-img
+    .img-container1
+    .overlay
+    .position-container
+    .position {
+    font-size: 10px;
+}
+
+.contact-section
+    .our-team-container
+    .our-team-img
+    .img-container1
+    .overlay
+    .position-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-section
+    .our-team-container
+    .our-team-img
+    .img-container1
+    .overlay
+    .position-container
+    .sosmed
+    a {
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 5px;
+}
+
+.contact-section
+    .our-team-container
+    .our-team-img
+    .img-container1:hover
+    .overlay {
+    opacity: 1;
+}
 
 .contact-section .our-team-container .our-team-img .img-container1 img {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     position: relative;

@@ -134,21 +134,87 @@
             <div class="our-team-img">
                 <div class="img-container1">
                     <img src="{{ asset('img/Raymond_Wolff.jpg') }}" alt="">
+                    <div class="overlay">
+                        <p class="name">Raymond Wolff</p>
+                        <div class="position-container">
+                            <p class="position">CEO</p>
+                            <div class="sosmed">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="img-container1">
                     <img src="{{ asset('img/Ruben_Ray.jpg') }}" alt="">
+                    <div class="overlay">
+                        <p class="name">Ruben Ray</p>
+                        <div class="position-container">
+                            <p class="position">CTO</p>
+                            <div class="sosmed">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="img-container1">
                     <img src="{{ asset('img/Antonius_Ardi.jpg') }}" alt="">
+                    <div class="overlay">
+                        <p class="name">Antonius Ardi</p>
+                        <div class="position-container">
+                            <p class="position">CMO</p>
+                            <div class="sosmed">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="img-container1">
                     <img src="{{ asset('img/Andy_taufiq.jpg') }}" alt="">
+                    <div class="overlay">
+                        <p class="name">Andy Taufiq</p>
+                        <div class="position-container">
+                            <p class="position">CFO</p>
+                            <div class="sosmed">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="img-container1">
                     <img src="{{ asset('img/Nadya_Bunga.jpg') }}" alt="">
+                    <div class="overlay">
+                        <p class="name">Nadya Bunga</p>
+                        <div class="position-container">
+                            <p class="position">Designer</p>
+                            <div class="sosmed">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="img-container1">
                     <img src="{{ asset('img/Dwi_Nauli.jpg') }}" alt="">
+                    <div class="overlay">
+                        <p class="name">Dwi Nauli</p>
+                        <div class="position-container">
+                            <p class="position">Designer</p>
+                            <div class="sosmed">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
