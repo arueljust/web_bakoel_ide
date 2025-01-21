@@ -388,7 +388,6 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 /* .contact-section .our-team-container .our-team-img .img-container1::before {
@@ -403,10 +402,11 @@
 } */
 
 .contact-section .our-team-container .our-team-img .img-container1 img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     object-fit: cover;
     object-position: center;
     position: relative;
     z-index: 0;
+    border-radius: 10px;
 }

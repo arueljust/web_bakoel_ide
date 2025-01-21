@@ -20,7 +20,6 @@ Route::get('/webinar', function () {
 Route::get('/contact', function () {
     return view('contact.index');
 })->name('contact');
-
-Route::get('new-design', function () {
-    return view('new_design');
-});
+Route::get('/user-dashboard', function () {
+    return view('user-dashboard.dashboard');
+})->name('user-dashboard');

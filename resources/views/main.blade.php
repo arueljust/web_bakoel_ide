@@ -23,12 +23,15 @@
     <main>
         @yield('content')
     </main>
+
     {{-- footer --}}
-    @include('footer.footer')
+    @if (View::hasSection('hide_footer'))
+    @else
+        @include('footer.footer')
+    @endif
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
-
     @stack('script')
 </body>
 
