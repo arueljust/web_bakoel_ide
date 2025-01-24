@@ -40,7 +40,7 @@
                     @endauth
                     @guest
                         <li><a href="#"><i class="fa-solid fa-earth-asia"></i> Language</a></li>
-                        <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                        <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
                     @endguest
                 </ul>
             </div>

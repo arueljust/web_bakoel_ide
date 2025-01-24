@@ -23,3 +23,7 @@ Route::get('/contact', function () {
 Route::get('/user-dashboard', function () {
     return view('user-dashboard.dashboard');
 })->name('user-dashboard');
+
+Route::get('/blank-page', function () {
+    return view('blank-page.index');
+})->name('blank-page');

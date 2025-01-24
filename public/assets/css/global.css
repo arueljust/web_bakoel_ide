@@ -42,10 +42,12 @@ body {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
-    color: #fff;
+    color: var(--white);
     opacity: 0;
     transform: translateY(-20px);
     transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeInOut 4s ease-in-out;
 }
 
 .toast.show {
@@ -73,14 +75,22 @@ body {
 }
 
 .toast.success {
-    background:linear-gradient(to top,var(--success),var(--success-secondary));
+    background-color: rgba(165, 195, 132, 0.8); /* Transparansi hijau */
+    border: 3px solid #7cb342; /* Hijau tua */
+    -webkit-backdrop-filter: blur(8px); /* Blur untuk kompatibilitas Safari */
+    backdrop-filter: blur(8px);
 }
 
 .toast.error {
-    background:linear-gradient(to top,var(--red),var(--red-secondary));
+    background-color: rgba(255, 87, 87, 0.8); /* Merah transparan */
+    border: 3px solid #d32f2f; /* Warna merah tua */
+    -webkit-backdrop-filter: blur(8px); /* Efek blur untuk Safari */
+    backdrop-filter: blur(8px); /* Efek blur */
 }
 
 .toast.warning {
-    background:linear-gradient(to top,var(--primary),var(--secondary));
+    background-color: rgba(255, 193, 7, 0.8); /* Kuning transparan */
+    border: 3px solid #ffa000; /* Warna kuning tua */
+    -webkit-backdrop-filter: blur(8px); /* Efek blur untuk Safari */
+    backdrop-filter: blur(8px); /* Efek blur */
 }
-

@@ -11,8 +11,8 @@
             <p>Explore personalized templates, tutorials, and <br>
                 solutions tailored to small businesses.</p>
             <div class="btn-group">
-                <a href="#" class="btn-primary">Start Personalizing</a>
-                <a href="#" class="btn-secondary">Explore Templates</a>
+                <a href="{{route('user-dashboard')}}" class="btn-primary">Start Personalizing</a>
+                <a href="{{route('blank-page')}}" class="btn-secondary">Explore Templates</a>
             </div>
         </div>
     </section>
