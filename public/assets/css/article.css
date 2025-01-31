@@ -41,6 +41,12 @@
 }
 .article1-cont .content-cont .content-desc ul li {
     font-size: 15px;
+    margin: 10px 60px 10px 0;
+}
+
+.article1-cont .content-cont .content-desc ul{
+    width: 80%;
+    padding-left: 60px;
 }
 
 .article1-cont .content-cont .content-desc .adds {
@@ -51,4 +57,9 @@
 .article1-cont .content-cont .content-desc {
     padding: 10px;
     font-weight: 300;
+}
+
+
+.p-cont{
+    padding: 0 30px;
 }

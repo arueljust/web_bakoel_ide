@@ -85,5 +85,8 @@
 
             </div>
         </div>
+        <div class="related-cont">
+            @include('components.related_article')
+        </div>
     </section>
 @endsection

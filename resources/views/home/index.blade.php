@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="plan-container">
+            <div class="plan-container">
                 <h1>who are<span> you</span>? let's <span>customize your experience </span></h1>
                 <div class="plan-container-grid">
                     <div class="container-one">
@@ -56,7 +56,7 @@
                         <p class="text-with-border">creative consultant</p>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </section>
 
