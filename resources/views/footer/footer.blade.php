@@ -8,18 +8,18 @@
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="{{route('contact')}}">Contac Us</a></li>
                     <li><a href="{{ route('blog') }}">Blogs</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="{{route('blank-page')}}">FAQ</a></li>
+                    <li><a href="{{route('blank-page')}}">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Resources</h3>
                 <ul>
-                    <li><a href="#">Templates</a></li>
-                    <li><a href="#">Tutorials</a></li>
-                    <li><a href="#">Social Commerce Tips</a></li>
+                    <li><a href="{{route('blank-page')}}">Templates</a></li>
+                    <li><a href="{{route('blank-page')}}">Tutorials</a></li>
+                    <li><a href="{{route('blank-page')}}">Social Commerce Tips</a></li>
                 </ul>
             </div>
         </div>
@@ -32,10 +32,10 @@
                     12520</p>
             </div>
             <div class="social-icons">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="{{route('blank-page')}}"><i class="fab fa-instagram"></i></a>
+                <a href="{{route('blank-page')}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{route('blank-page')}}"><i class="fab fa-facebook"></i></a>
+                <a href="{{route('blank-page')}}"><i class="fab fa-tiktok"></i></a>
             </div>
         </div>
     </div>

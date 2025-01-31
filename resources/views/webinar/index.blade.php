@@ -48,9 +48,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -67,9 +67,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -86,9 +86,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -107,9 +107,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -126,9 +126,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -145,9 +145,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -166,9 +166,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -185,9 +185,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -204,9 +204,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -239,9 +239,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -258,9 +258,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -277,9 +277,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -298,9 +298,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -317,9 +317,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -336,9 +336,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -357,9 +357,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -376,9 +376,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -395,9 +395,9 @@
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href=""class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>

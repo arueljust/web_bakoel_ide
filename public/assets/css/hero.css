@@ -122,7 +122,112 @@
     margin: 0 auto;
 }
 
+/* product hero */
+.product-hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: url("../../assets/images/team_2.jpg") no-repeat center
+        center/cover;
+    margin-top: 60px;
+    text-align: center; /* Tambahkan ini */
+}
 
+.product-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.product-hero-content {
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: center; /* Pastikan ini */
+    margin: 0 auto; /* Tambahkan ini jika diperlukan */
+}
+
+.product-hero h1 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+.product-hero p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.product-hero .product-hero-content a {
+    border-radius: 30px;
+    color: var(--white);
+    text-decoration: none;
+    padding: 8px 20px;
+    background: linear-gradient(to top, var(--primary), var(--secondary));
+    border: none;
+}
+
+.product-hero .product-hero-content .product-hero-btn {
+    margin-top: 50px;
+}
+
+.product-hero .product-hero-content a:hover {
+    background: linear-gradient(
+        to top,
+        var(--primary-hover),
+        var(--secondary-hover)
+    );
+}
+
+/* template hero */
+.template-hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: url("../../assets/images/team_2.jpg") no-repeat center
+        center/cover;
+    margin-top: 60px;
+    text-align: center; /* Tambahkan ini */
+}
+
+.template-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.template-hero-content {
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: center; /* Pastikan ini */
+    margin: 0 auto; /* Tambahkan ini jika diperlukan */
+}
+
+.template-hero h1 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+.template-hero p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
 /* webinar hero */
 .webinar-hero {
     position: relative;

@@ -6,11 +6,11 @@
     </div>
     <ul class="nav-links">
         <li><a href="{{ route('home') }}" class="{{ Request::is('/*') ? 'active' : '' }}">Home</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Templates</a></li>
+        <li><a href="{{ route('product') }}" class="{{ Request::is('products*') ? 'active' : '' }}">Product</a></li>
+        <li><a href="{{ route('template') }}" class="{{ Request::is('templates*') ? 'active' : '' }}">Templates</a></li>
         <li><a href="{{ route('blog') }}" class="{{ Request::is('blog*') ? 'active' : '' }}">Blogs</a></li>
         <li><a href="{{ route('webinar') }}"class="{{ Request::is('webinar*') ? 'active' : '' }}">Webinar</a></li>
-        <li><a href="#">Partnerships</a></li>
+        <li><a href="{{ route('blank-page') }}">Partnerships</a></li>
         <li><a href="{{ route('contact') }}"class="{{ Request::is('contact*') ? 'active' : '' }}">Contact Us</a></li>
     </ul>
     <div class="icon-navbar">
@@ -18,7 +18,7 @@
             <input type="text" placeholder="Search...">
         </div>
         <div class="icon">
-            <a href="">
+            <a href="{{ route('blank-page') }}">
                 <i class="fa-solid fa-bag-shopping"></i>
             </a>
         </div>
@@ -33,14 +33,15 @@
                         <li>
                             <p>Mawar Indah</p>
                         </li>
-                        <li><a href="#"><i class="fa-solid fa-box"></i> Dashboard</a></li>
-                        <li><a href="#"><i class="fa-solid fa-pen"></i> Profile</a></li>
-                        <li><a href="#"><i class="fa-solid fa-earth-asia"></i> Language</a></li>
-                        <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+                        <li><a href="{{ route('user-dashboard') }}"><i class="fa-solid fa-box"></i> Dashboard</a></li>
+                        <li><a href="{{ route('blank-page') }}"><i class="fa-solid fa-pen"></i> Profile</a></li>
+                        <li><a href="{{ route('blank-page') }}"><i class="fa-solid fa-earth-asia"></i> Language</a></li>
+                        <li><a href="{{ route('blank-page') }}"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                        </li>
                     @endauth
                     @guest
-                        <li><a href="#"><i class="fa-solid fa-earth-asia"></i> Language</a></li>
-                        <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+                        <li><a href="{{ route('blank-page') }}"><i class="fa-solid fa-earth-asia"></i> Language</a></li>
+                        <li><a href="{{ route('blank-page') }}"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
                     @endguest
                 </ul>
             </div>

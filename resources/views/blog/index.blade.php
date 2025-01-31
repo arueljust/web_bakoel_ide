@@ -43,9 +43,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ url('/blog/article/1') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -63,9 +64,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ url('/blog/article/2') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -83,9 +85,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -103,9 +106,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -125,9 +129,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -145,9 +150,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -165,9 +171,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -185,9 +192,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -207,9 +215,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -227,9 +236,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -247,9 +257,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -267,9 +278,10 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                               <a href="" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
                                         class="fa-solid fa-arrow-right-long"></i></a>
-                                <a href=""class="blog-bookmark-btn"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
+                                        class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>

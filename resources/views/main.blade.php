@@ -17,6 +17,9 @@
 </head>
 
 <body>
+    <a href="https://wa.me/6281234567890" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
     {{-- navbar --}}
     @include('navbar.navbar')
     @yield('hero')

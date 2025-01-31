@@ -11,8 +11,8 @@
             <p>Explore personalized templates, tutorials, and <br>
                 solutions tailored to small businesses.</p>
             <div class="btn-group">
-                <a href="{{route('user-dashboard')}}" class="btn-primary">Start Personalizing</a>
-                <a href="{{route('blank-page')}}" class="btn-secondary">Explore Templates</a>
+                <a href="{{ route('blank-page') }}" class="btn-primary">Start Personalizing</a>
+                <a href="{{ route('blank-page') }}" class="btn-secondary">Explore Templates</a>
             </div>
         </div>
     </section>
@@ -25,13 +25,22 @@
                 <img src="{{ asset('assets/images/chat.png') }}" alt="">
             </div>
             <div class="score-container">
-                <h1><span>Measure your brand's </span>potential with <span>our scoring tool</span></h1>
-                <p>get real-time insights and recomendations tailored to your business.</p>
-                <div class="score-btn">
-                    <a href="">start scoring now !</a>
+                <div class="score-content">
+                    <h1><span>LET'S SEE </span>HOW FAST</h1>
+                    <p>YOUR BUSINESS IS GROWING!</p>
+                    <br>
+                    <small>
+                        It's important for you to always monitor your business growth.
+                        We can help you boost your business
+                        productivity by 30% or even more.
+                        Join us to discover how far your business has progressed!
+                    </small>
+                    <div class="score-btn">
+                        <a href="{{ route('blank-page') }}">Join us now !</a>
+                    </div>
                 </div>
             </div>
-            <div class="plan-container">
+            {{-- <div class="plan-container">
                 <h1>who are<span> you</span>? let's <span>customize your experience </span></h1>
                 <div class="plan-container-grid">
                     <div class="container-one">
@@ -47,7 +56,7 @@
                         <p class="text-with-border">creative consultant</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
@@ -55,19 +64,45 @@
     <section>
         <div class="templates-section">
             <div class="templates-container">
-                <h1>creative <span class="colored">templates</span> <br>
-                    <em>
-                        for <span class="colored">every</span> need
-                    </em>
+                <h1>creative <span class="colored">templates</span>
+                    for <span class="colored">every</span> need
                 </h1>
                 <div class="templates-view">
-                    <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
-                    <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
-                    <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
-                    <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
-                    <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
-                    <img src="{{ asset('assets/images/webinar.jpg') }}" alt="">
                 </div>
+            </div>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <div class="content">
+                        <h1>Ini Template.</h1>
+                        <p>Tingkatkan bisnis Anda sekarang!</p>
+                        <img src="{{ asset('assets/images/template1.png') }}" alt="Avatar" class="avatar">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Ini Template.</h1>
+                        <p>Tingkatkan bisnis Anda sekarang!</p>
+                        <img src="{{ asset('assets/images/template1.png') }}" alt="Avatar" class="avatar">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>Ini Template.</h1>
+                        <p>Tingkatkan bisnis Anda sekarang!</p>
+                        <img src="{{ asset('assets/images/template1.png') }}" alt="Avatar" class="avatar">
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
         </div>
     </section>
@@ -86,7 +121,10 @@
                     <h1>Price</h1>
                     <hr>
                     Rp. 99.999
-
+                    <br>
+                    <div class="btn-price-home">
+                        <a href="{{ route('blank-page') }}"><i class="fa-solid fa-cart-shopping"></i> Shop now</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,36 +132,139 @@
 
     {{-- testimonial --}}
     <section>
-        <div class="testimonial-section">
-            <div class="title">
-                <h2>
-                    Testimonials
-                </h2>
-                <br>
-                <p>
-                    What Our Clients Say About Us
-                </p>
+        <div class="testimonial-container">
+            <div class="arrow-icon-container">
+                <img class="arrow-icon" src="{{ asset('assets/icon/arrow_icon.png') }}" alt="">
             </div>
-            <div class="testimonial-container">
-                <div class="left-arrow"><img src="{{ asset('assets/icon/arrow-left.png') }}" alt=""></div>
-                <div class="testimonial-img">
-                    <img src="{{ asset('img/Dwi_Nauli.jpg') }}" alt="">
+            <div class="testimonial-title">
+                <h1>What do they say?</h1>
+                <p>Let's take a look at their experience after joining.</p>
+            </div>
+            <div class="testimonial-wrapper">
+                <div class="testimonial">
+                    <div class="quote">“</div>
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="User 1" class="user-img">
+                    <h3>Mawar Indah</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <button class="read-more">Selengkapnya</button>
                 </div>
-                <div class="testimonial-desc">
-                    <div class="container">
-                        <div class="name"> <b> Mawar Indah</b> ▪️ Founder Bunga Indonesia</div><br>
-                        <p>
-                            "Terima kasih banyak atas jasa pembuatan websitenya! Prosesnya cepat, hasilnya sesuai
-                            ekspektasi, dan desainnya sangat profesional. Timnya juga ramah dan sabar menghadapi revisi dari
-                            saya. Sekarang website bisnis saya terlihat lebih menarik dan mudah diakses pelanggan.
-                            Recommended banget! 🌟"
-                        </p><br>
-                        <a href="" class="testimonial-btn">View Case Study</a>
-                    </div>
+                <div class="testimonial">
+                    <div class="quote">“</div>
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User 2" class="user-img">
+                    <h3>Joko Santoso</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <button class="read-more">Selengkapnya</button>
                 </div>
-                <div class="right-arrow"><img src="{{ asset('assets/icon/arrow-right.png') }}" alt=""></div>
+                <div class="testimonial">
+                    <div class="quote">“</div>
+                    <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="User 3" class="user-img">
+                    <h3>Siti Aisyah</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <button class="read-more">Selengkapnya</button>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
         </div>
     </section>
 
 @endsection
+@push('script')
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const testimonials = document.querySelectorAll(".testimonial");
+            const prevBtn = document.querySelector(".prev-btn");
+            const nextBtn = document.querySelector(".next-btn");
+
+            let index = 0;
+            const totalTestimonials = testimonials.length;
+
+            function updateTestimonial() {
+                testimonials.forEach((testimonial, i) => {
+                    if (i === index) {
+                        testimonial.classList.add("active"); // Aktifkan yang dipilih
+                    } else {
+                        testimonial.classList.remove("active"); // Sembunyikan yang lain
+                    }
+                });
+            }
+
+            nextBtn.addEventListener("click", function() {
+                index = (index + 1) % totalTestimonials;
+                updateTestimonial();
+            });
+
+            prevBtn.addEventListener("click", function() {
+                index = (index - 1 + totalTestimonials) % totalTestimonials;
+                updateTestimonial();
+            });
+
+            // Inisialisasi pertama
+            updateTestimonial();
+        });
+    </script>
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const carouselItems = document.querySelectorAll('.carousel-item');
+        const dots = document.querySelectorAll('.dot');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+
+        let currentIndex = 0;
+        let isTransitioning = false;
+
+        function updateCarousel() {
+            if (isTransitioning) return;
+            isTransitioning = true;
+
+            carouselItems.forEach((item, index) => {
+                item.style.opacity = "0"; // Sembunyikan semua item dengan opacity
+                item.style.transform = `translateX(${(index - currentIndex) * 100}%)`;
+            });
+
+            setTimeout(() => {
+                carouselItems.forEach((item, index) => {
+                    item.style.display = index === currentIndex ? "flex" : "none";
+                    item.style.opacity = "1";
+                });
+                isTransitioning = false;
+            }, 500); // Waktu transisi harus sama dengan CSS transition
+
+            // Perbarui dot indicator
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        // Event listener tombol prev dan next
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+            updateCarousel();
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % carouselItems.length;
+            updateCarousel();
+        });
+
+        // Event listener untuk navigasi dot
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        // Inisialisasi posisi awal
+        carouselItems.forEach((item, index) => {
+            item.style.transform = `translateX(${index * 100}%)`;
+        });
+        updateCarousel();
+    </script>
+@endpush
