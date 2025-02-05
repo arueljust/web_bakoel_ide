@@ -3,26 +3,32 @@
 @section('hero')
     <section class="blog-hero">
         <div class="blog-hero-content">
-            <h1>learn, grow, and succeed with expert insights</h1>
+            <h1>
+                {{ $translator->translate('learn, grow, and succeed with expert insights') }}
+            </h1>
             <br>
-            <p>browse articles, video guides, and creative tips.</p>
+            <p>
+                {{ $translator->translate('browse articles, video guides, and creative tips.') }}
+            </p>
         </div>
     </section>
 @endsection
 @section('content')
     <section class="blog-section">
-        <h1 class="blog-title">Latest articles</h1>
+        <h1 class="blog-title">{{ $translator->translate('Latest articles') }}</h1>
         <div class="blog-container">
             <div class="container1">
-                <input type="text" name="search" id="search" placeholder="Search articles...">
+                <input type="text" name="search" id="search" placeholder="{{ $translator->translate('Search...') }}">
                 <div class="search-blog">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <div class="tags">
-                    <p class="active">All Blogs</p>
-                    <p>Digital Marketing</p>
-                    <p>Branding Tips</p>
-                    <p>Success Stories</p>
+                    <p class="active">
+                        {{ $translator->translate('All Blogs') }}
+                    </p>
+                    <p>{{ $translator->translate('Digital Marketings') }}</p>
+                    <p>{{ $translator->translate('Branding Tips') }}</p>
+                    <p>{{ $translator->translate('Success Stories') }}</p>
                 </div>
             </div>
             <div class="container2">
@@ -43,7 +49,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ url('/blog/article/1') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ url('/blog/article/1') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -64,7 +70,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ url('/blog/article/2') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ url('/blog/article/2') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -85,7 +91,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -106,7 +112,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -129,7 +135,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -150,7 +156,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -171,7 +177,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -192,7 +198,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -215,7 +221,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -236,7 +242,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -257,7 +263,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>
@@ -278,7 +284,7 @@
                                 </div>
                             </div>
                             <div class="blog-btn">
-                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">view article <i
+                                <a href="{{ route('blank-page') }}" class="blog-view-article-btn">{{ $translator->translate('View article') }}<i
                                         class="fa-solid fa-arrow-right-long"></i></a>
                                 <a href="{{ route('blank-page') }}"class="blog-bookmark-btn"><i
                                         class="fa-regular fa-bookmark"></i></a>

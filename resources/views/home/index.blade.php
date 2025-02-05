@@ -4,15 +4,21 @@
     {{-- hero --}}
     <section class="hero">
         <div class="hero-content">
-            <h1>Empower Your Business <br>
-                With creative <br>
-                solution
+            <h1>
+                {{ $translator->translate('Empower Your Business') }} <br>
+                {{ $translator->translate('With creative') }} <br>
+                {{ $translator->translate('solutions') }}
             </h1>
-            <p>Explore personalized templates, tutorials, and <br>
-                solutions tailored to small businesses.</p>
+            <p>
+                {{ $translator->translate('Explore personalized templates, tutorials, and solutions tailored to small businesses.') }}
+            </p>
             <div class="btn-group">
-                <a href="{{ route('blank-page') }}" class="btn-primary">Start Personalizing</a>
-                <a href="{{ route('blank-page') }}" class="btn-secondary">Explore Templates</a>
+                <a href="{{ route('blank-page') }}" class="btn-primary">
+                    {{ $translator->translate('Start Personalizing') }}
+                </a>
+                <a href="{{ route('blank-page') }}" class="btn-secondary">
+                    {{ $translator->translate('Explore Templates') }}
+                </a>
             </div>
         </div>
     </section>
@@ -26,34 +32,41 @@
             </div>
             <div class="score-container">
                 <div class="score-content">
-                    <h1><span>LET'S SEE </span>HOW FAST</h1>
-                    <p>YOUR BUSINESS IS GROWING!</p>
-                    <br>
+                    <h1>
+                        <span>
+                            {{ $translator->translate("LET'S SEE") }}
+                        </span>
+                        {{ $translator->translate('HOW FAST') }}
+                    </h1>
+                    <p>
+                        {{ $translator->translate('YOUR BUSINESS IS GROWING!') }}
+                    </p>
                     <small>
-                        It's important for you to always monitor your business growth.
-                        We can help you boost your business
-                        productivity by 30% or even more.
-                        Join us to discover how far your business has progressed!
+                        {{ $translator->translate(
+                            "It's important for you to always monitor your business growth.We can help you boost your business productivity by 30% or even more. Join us to discover how far your business has progressed!",
+                        ) }}
                     </small>
                     <div class="score-btn">
-                        <a href="{{ route('blank-page') }}">Join us now !</a>
+                        <a href="{{ route('blank-page') }}">{{ $translator->translate('Join us now !') }}</a>
                     </div>
                 </div>
             </div>
             <div class="plan-container">
-                <h1>who are<span> you</span>? let's <span>customize your experience </span></h1>
+                <h1>{{ $translator->translate('Who are you?') }}
+                    <span>{{ $translator->translate("Let's customize your experience") }}</span>
+                </h1>
                 <div class="plan-container-grid">
                     <div class="container-one">
                         <i class="fa-solid fa-bag-shopping"></i>
-                        <p class="text-with-border">small business owner</p>
+                        <p class="text-with-border">{{ $translator->translate('Small Business Owner') }}</p>
                     </div>
                     <div class="container-two">
                         <i class="fa-solid fa-headset"></i>
-                        <p class="text-with-border">digital marketer</p>
+                        <p class="text-with-border">{{ $translator->translate('Digital Marketer') }}</p>
                     </div>
                     <div class="container-three">
                         <i class="fa-solid fa-comments"></i>
-                        <p class="text-with-border">creative consultant</p>
+                        <p class="text-with-border">{{ $translator->translate('Creative Consultant') }}</p>
                     </div>
                 </div>
             </div>
@@ -64,33 +77,33 @@
     <section>
         <div class="templates-section">
             <div class="templates-container">
-                <h1>creative <span class="colored">templates</span>
-                    for <span class="colored">every</span> need
+                <h1>
+                    {{ $translator->translate('Creative') }} <span
+                        class="colored">{{ $translator->translate('Templates') }}</span>
+                    {{ $translator->translate('for every need') }}
                 </h1>
-                <div class="templates-view">
-                </div>
             </div>
         </div>
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-item active">
                     <div class="content">
-                        <h1>Ini Template.</h1>
-                        <p>Tingkatkan bisnis Anda sekarang!</p>
+                        <h1>{{ $translator->translate('This is a template.') }}</h1>
+                        <p>{{ $translator->translate('Boost your business now!') }}</p>
                         <img src="{{ asset('assets/images/template1.png') }}" alt="Avatar" class="avatar">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="content">
-                        <h1>Ini Template.</h1>
-                        <p>Tingkatkan bisnis Anda sekarang!</p>
+                        <h1>{{ $translator->translate('This is a template.') }}</h1>
+                        <p>{{ $translator->translate('Boost your business now!') }}</p>
                         <img src="{{ asset('assets/images/template1.png') }}" alt="Avatar" class="avatar">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="content">
-                        <h1>Ini Template.</h1>
-                        <p>Tingkatkan bisnis Anda sekarang!</p>
+                        <h1>{{ $translator->translate('This is a template.') }}</h1>
+                        <p>{{ $translator->translate('Boost your business now!') }}</p>
                         <img src="{{ asset('assets/images/template1.png') }}" alt="Avatar" class="avatar">
                     </div>
                 </div>
@@ -117,13 +130,14 @@
                 <div class="price-desc">
                     <h1>Lorem ipsum dolor</h1>
                     <hr>
-                    <h1>Description</h1><br>
-                    <h1>Price</h1>
+                    <h1>{{ $translator->translate('Description') }}</h1>
+                    <h1>{{ $translator->translate('Price') }}</h1>
                     <hr>
                     Rp. 99.999
                     <br>
                     <div class="btn-price-home">
-                        <a href="{{ route('blank-page') }}"><i class="fa-solid fa-cart-shopping"></i> Shop now</a>
+                        <a href="{{ route('blank-page') }}"><i class="fa-solid fa-cart-shopping"></i>
+                            {{ $translator->translate('Shop now') }}</a>
                     </div>
                 </div>
             </div>
@@ -137,8 +151,8 @@
                 <img class="arrow-icon" src="{{ asset('assets/icon/arrow_icon.png') }}" alt="">
             </div>
             <div class="testimonial-title">
-                <h1>What do they say?</h1>
-                <p>Let's take a look at their experience after joining.</p>
+                <h1>{{ $translator->translate('What do they say?') }}</h1>
+                <p>{{ $translator->translate("Let's take a look at their experience after joining.") }}</p>
             </div>
             <div class="testimonial-wrapper">
                 <div class="testimonial">
@@ -147,7 +161,7 @@
                     <h3>Mawar Indah</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.</p>
-                    <button class="read-more">Selengkapnya</button>
+                    <button class="read-more">{{ $translator->translate('Read more') }}</button>
                 </div>
                 <div class="testimonial">
                     <div class="quote">“</div>
@@ -155,7 +169,7 @@
                     <h3>Joko Santoso</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.</p>
-                    <button class="read-more">Selengkapnya</button>
+                    <button class="read-more">{{ $translator->translate('Read more') }}</button>
                 </div>
                 <div class="testimonial">
                     <div class="quote">“</div>
@@ -163,7 +177,7 @@
                     <h3>Siti Aisyah</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.</p>
-                    <button class="read-more">Selengkapnya</button>
+                    <button class="read-more">{{ $translator->translate('Read more') }}</button>
                 </div>
             </div>
 

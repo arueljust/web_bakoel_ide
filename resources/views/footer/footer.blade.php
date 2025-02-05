@@ -5,26 +5,26 @@
         </div>
         <div class="footer-links">
             <div class="footer-section">
-                <h3>Quick Links</h3>
+                <h3>{{$translator->translate('Quick Links')}}</h3>
                 <ul>
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="{{route('contact')}}">Contac Us</a></li>
-                    <li><a href="{{ route('blog') }}">Blogs</a></li>
-                    <li><a href="{{route('blank-page')}}">FAQ</a></li>
-                    <li><a href="{{route('blank-page')}}">Privacy Policy</a></li>
+                    <li><a href="{{ route('home') }}">{{$translator->translate('Home')}}</a></li>
+                    <li><a href="{{route('contact')}}">{{$translator->translate('Contact Us')}}</a></li>
+                    <li><a href="{{ route('blog') }}">{{$translator->translate('Blogs')}}</a></li>
+                    <li><a href="{{route('blank-page')}}">{{$translator->translate('FAQ')}}</a></li>
+                    <li><a href="{{route('blank-page')}}">{{$translator->translate('Privacy Policy')}}</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Resources</h3>
+                <h3>{{$translator->translate('Resources')}}</h3>
                 <ul>
-                    <li><a href="{{route('blank-page')}}">Templates</a></li>
-                    <li><a href="{{route('blank-page')}}">Tutorials</a></li>
-                    <li><a href="{{route('blank-page')}}">Social Commerce Tips</a></li>
+                    <li><a href="{{route('blank-page')}}">{{$translator->translate('Templates')}}</a></li>
+                    <li><a href="{{route('blank-page')}}">{{$translator->translate('Tutorials')}}</a></li>
+                    <li><a href="{{route('blank-page')}}">{{$translator->translate('Social Commerce Tips')}}</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-section">
-            <h3>Support</h3>
+            <h3>{{$translator->translate('Supports')}}</h3>
             <div class="contact-info">
                 <p><i class="fas fa-envelope"></i> <a href="mailto:admin@bakoelide.com">admin@bakoelide.com</a></p>
                 <p><i class="fas fa-phone"></i> 0878-849-631-86</p>

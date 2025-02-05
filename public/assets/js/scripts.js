@@ -19,3 +19,54 @@ document.addEventListener("click", function (event) {
         dropdown.classList.remove("active"); // Sembunyikan menu
     }
 });
+
+//dropdown menu
+
+document.addEventListener("DOMContentLoaded", function () {
+    function setupDropdown(toggleId, dropdownId) {
+        const toggle = document.getElementById(toggleId);
+        const dropdown = document.getElementById(dropdownId);
+
+        if (toggle && dropdown) {
+            toggle.addEventListener("click", function (event) {
+                event.stopPropagation();
+                dropdown.classList.toggle("show");
+            });
+
+            document.addEventListener("click", function (event) {
+                if (
+                    !dropdown.contains(event.target) &&
+                    !toggle.contains(event.target)
+                ) {
+                    dropdown.classList.remove("show");
+                }
+            });
+        }
+    }
+
+    setupDropdown("languageDropdownToggle", "languageDropdown");
+    setupDropdown("languageDropdownToggleGuest", "languageDropdownGuest");
+});
+
+//simpan translate di localstorage
+
+document.addEventListener("DOMContentLoaded", function () {
+    let langLinks = document.querySelectorAll("a[href*='?lang=']");
+
+    langLinks.forEach((link) => {
+        link.addEventListener("click", function (event) {
+            let lang = this.href.split("?lang=")[1];
+            localStorage.setItem("selectedLanguage", lang);
+        });
+    });
+
+    // Set bahasa berdasarkan localStorage saat halaman dimuat
+    let storedLang = localStorage.getItem("selectedLanguage");
+    if (storedLang && !window.location.search.includes("lang=")) {
+        window.location.href = "?lang=" + storedLang;
+    }
+});
+
+function changeLanguage(lang) {
+    window.location.href = "?lang=" + lang;
+}

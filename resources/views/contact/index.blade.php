@@ -3,9 +3,9 @@
 @section('hero')
     <section class="contact-hero">
         <div class="contact-hero-content">
-            <h1>contact us</h1>
+            <h1> {{ $translator->translate('contact us') }}</h1>
             <br>
-            <p>get to know and reach out us to develop your brand</p>
+            <p> {{ $translator->translate('get to know and reach out us to develop your brand') }}</p>
         </div>
     </section>
 @endsection
@@ -22,10 +22,9 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </div>
                     <div class="flow-desc">
-                        <h1 class="flow-desc-title">inspiration</h1>
+                        <h1 class="flow-desc-title">{{ $translator->translate('inspiration') }}</h1>
                         <p class="flow-desc-p">
-                            The description of the history that "Bakoelide" has gone through, step by
-                            step.
+                            {{ $translator->translate('The description of the history that "Bakoelide" has gone through, step by step.') }}
                         </p>
                     </div>
                 </div>
@@ -38,10 +37,9 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </div>
                     <div class="flow-desc">
-                        <h1 class="flow-desc-title">recruite team</h1>
+                        <h1 class="flow-desc-title">{{ $translator->translate('recruite team') }}</h1>
                         <p class="flow-desc-p">
-                            The description of the history that "Bakoelide" has gone through, step by
-                            step.
+                            {{ $translator->translate('The description of the history that "Bakoelide" has gone through, step by step.') }}
                         </p>
                     </div>
                 </div>
@@ -54,10 +52,9 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </div>
                     <div class="flow-desc">
-                        <h1 class="flow-desc-title">build system</h1>
+                        <h1 class="flow-desc-title">{{ $translator->translate('build system') }}</h1>
                         <p class="flow-desc-p">
-                            The description of the history that "Bakoelide" has gone through, step by
-                            step.
+                            {{ $translator->translate('The description of the history that "Bakoelide" has gone through, step by step.') }}
                         </p>
                     </div>
                 </div>
@@ -70,10 +67,9 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </div>
                     <div class="flow-desc">
-                        <h1 class="flow-desc-title">services</h1>
+                        <h1 class="flow-desc-title">{{ $translator->translate('services') }}</h1>
                         <p class="flow-desc-p">
-                            The description of the history that "Bakoelide" has gone through, step by
-                            step.
+                            {{ $translator->translate('The description of the history that "Bakoelide" has gone through, step by step.') }}
                         </p>
                     </div>
                 </div>
@@ -81,11 +77,12 @@
             <div class="journey-container">
                 <div class="list-journey">
                     <div class="list-journey1">
-                        <h1 class="journey-title">The Spark</h1>
+                        <h1 class="journey-title"> {{ $translator->translate('The spark') }}</h1>
                         <div class="journey-desc">
-                            <p>Bakoel Ide began with a vision to transform bold ideas into powerful digital
-                                strategies that help
-                                brands grow.
+                            <p>
+                                {{ $translator->translate('Bakoel Ide began with a vision to transform bold ideas into powerful digital
+                                                                                                                                                                                                strategies that help
+                                                                                                                                                                                                brands grow.') }}
                             </p>
                             <div class="icon-journey">
                                 <i class="fa-solid fa-lightbulb"></i>
@@ -93,9 +90,10 @@
                         </div>
                     </div>
                     <div class="list-journey2">
-                        <h1 class="journey-title">The Blueprint</h1>
+                        <h1 class="journey-title"> {{ $translator->translate('the blueprint') }}</h1>
                         <div class="journey-desc">
-                            <p>We create tailored digital marketing strategies that drive growth and engage audiences.
+                            <p>
+                                {{ $translator->translate('We create tailored digital marketing strategies that drive growth and engage audiences.') }}
                             </p>
                             <div class="icon-journey">
                                 <i class="fa-solid fa-bookmark"></i>
@@ -103,11 +101,13 @@
                         </div>
                     </div>
                     <div class="list-journey3">
-                        <h1 class="journey-title">The Vow</h1>
+                        <h1 class="journey-title"> {{ $translator->translate('the vow') }}</h1>
                         <div class="journey-desc">
                             <p>
-                                We’re committed to delivering innovative digital experiences that connect brands with their
-                                audience.
+                                {{ $translator->translate('  We’re committed to delivering
+                                                                                                                                innovative digital experiences that connect brands with their
+                                                                                                                                audience.') }}
+
                             </p>
                             <div class="icon-journey">
                                 <i class="fa-solid fa-book"></i>
@@ -117,18 +117,18 @@
                 </div>
                 <div class="img-journey">
                     <img src="{{ asset('assets/images/team.webp') }}" alt="">
-                    <h1>OUR MILESTONE JOURNEY</h1>
+                    <h1> {{ $translator->translate('Our milestone journey') }}</h1>
                 </div>
             </div>
         </div>
         <div class="our-team-container">
             <div class="our-team-header">
-                <h1><span>our team</span> <br>
-                    Meet The Bakoel Ide Team
+                <h1><span>{{ $translator->translate('Our team') }}</span> <br>
+                    {{ $translator->translate('Meet the Bakoel ide team') }}
                 </h1>
                 <p>
-                    Our team consists of skilled experts with extensive experience in marketing and communication.
-                    We understand the best strategies to tackle challenges and deliver impactful results for your brand.
+                    {{ $translator->translate(' Our team consists of skilled experts with extensive experience in marketing and communication.
+                                                            We understand the best strategies to tackle challenges and deliver impactful results for your brand') }}
                 </p>
             </div>
             <div class="our-team-img">

@@ -3,25 +3,25 @@
 @section('hero')
     <section class="webinar-hero">
         <div class="webinar-hero-content">
-            <h1>learn, grow, and succeed with expert insights</h1>
+            <h1> {{ $translator->translate('learn, grow, and succeed with expert insights') }}</h1>
             <br>
-            <p>browse articles, video guides, and creative tips.</p>
+            <p>{{ $translator->translate('browse articles, video guides, and creative tips.') }}</p>
         </div>
     </section>
 @endsection
 @section('content')
     <section class="webinar-section">
         <div class="webinar-container">
-            <h3>Pick a Date</h3>
+            <h3>{{ $translator->translate('Pick a Dates') }}</h3>
             <div class="filter-container">
                 <select name="" id="" class="sort-by">
-                    <option value="" selected>Sort By</option>
-                    <option value="">Ascanding</option>
-                    <option value="">Descanding</option>
+                    <option value="" selected>{{ $translator->translate('Sort By') }}</option>
+                    <option value="">{{ $translator->translate('Ascanding') }}</option>
+                    <option value="">{{ $translator->translate('Descanding') }}</option>
                 </select>
                 <input type="date" name="webinar_date" id="webinar-date" class="webinar-pick-date">
                 <div class="webinar-search">
-                    <input type="text" name="" id="" placeholder="Search templates, articles ...">
+                    <input type="text" name="" id="" placeholder="{{ $translator->translate('Search...') }}">
                     <div class="search">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="webinar-coming-soon">
-            <h1>Coming Soon !</h1>
+            <h1>{{ $translator->translate('Coming Soon !') }}</h1>
             <hr>
             <div class="coming-soon-container">
                 <div class="pagination">
@@ -44,13 +44,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -63,13 +64,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -82,13 +84,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -103,13 +106,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -122,13 +126,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -141,13 +146,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -162,13 +168,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -181,13 +188,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -200,13 +208,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +229,7 @@
         </div>
 
         <div class="webinar-coming-soon">
-            <h1>Recording Webinar</h1>
+            <h1>{{ $translator->translate('Recording Webinar') }}</h1>
             <hr>
             <div class="coming-soon-container">
                 <div class="paginations">
@@ -235,13 +244,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -254,13 +264,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -273,13 +284,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -294,13 +306,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -313,13 +326,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -332,13 +346,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -353,13 +368,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -372,13 +388,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                         <div class="content-item">
@@ -391,13 +408,14 @@
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur,
                                         laboriosam, voluptatem ratione
                                     </p>
-                                    <p class="webinar-date-time">Sunday , 3 Jan 2025 | 11.00 WIB</p>
+                                    <p class="webinar-date-time">{{ $translator->translate('Sunday , 3 jan 2025 | 11:00 Wib') }}</p>
                                 </div>
                             </div>
                             <div class="webinar-btn">
-                                <a href="{{route('blank-page')}}"class="active">Register Now<i class="fa-solid fa-pen-to-square"></i></a>
-                                <a href="{{route('blank-page')}}">Payment <i class="fa-regular fa-credit-card"></i></a>
-                                <a href="{{route('blank-page')}}"><i class="fa-regular fa-bookmark"></i></a>
+                                <a href="{{ route('blank-page') }}"class="active">{{ $translator->translate('Register Now') }}<i
+                                        class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="{{ route('blank-page') }}">{{ $translator->translate('Payment') }} <i class="fa-regular fa-credit-card"></i></a>
+                                <a href="{{ route('blank-page') }}"><i class="fa-regular fa-bookmark"></i></a>
                             </div>
                         </div>
                     </div>
@@ -530,7 +548,7 @@
             function updatePaginationState() {
                 $('.page-number').removeClass('active'); // Hapus kelas aktif dari semua nomor
                 $(`.page-number[data-page="${currentPage}"]`).addClass(
-                'active'); // Tambahkan kelas aktif ke nomor halaman saat ini
+                    'active'); // Tambahkan kelas aktif ke nomor halaman saat ini
             }
 
             // Fungsi untuk halaman sebelumnya
