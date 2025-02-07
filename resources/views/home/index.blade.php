@@ -31,7 +31,7 @@
                 <img src="{{ asset('assets/images/chat.png') }}" alt="">
             </div>
             <div class="score-container">
-                <div class="score-content">
+                {{-- <div class="score-content">
                     <h1>
                         <span>
                             {{ $translator->translate("LET'S SEE") }}
@@ -49,7 +49,7 @@
                     <div class="score-btn">
                         <a href="{{ route('blank-page') }}">{{ $translator->translate('Join us now !') }}</a>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="plan-container">
                 <h1>{{ $translator->translate('Who are you?') }}

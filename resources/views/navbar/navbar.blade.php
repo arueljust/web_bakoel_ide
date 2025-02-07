@@ -66,14 +66,16 @@
         <li><a href="{{ route('home') }}"
                 class="{{ Request::is('/*') ? 'active' : '' }}">{{ $translator->translate('Home') }}</a></li>
         <li><a href="{{ route('product') }}"
-                class="{{ Request::is('products*') ? 'active' : '' }}">{{ $translator->translate('Product') }}</a></li>
-        <li><a href="{{ route('template') }}"
-                class="{{ Request::is('templates*') ? 'active' : '' }}">{{ $translator->translate('Templates') }}</a>
+                class="{{ Request::is('products*') ? 'active' : '' }}">{{ $translator->translate('Product & Services') }}</a>
         </li>
-        <li><a href="{{ route('blog') }}"
+        {{-- <li><a href="{{ route('template') }}"
+                class="{{ Request::is('templates*') ? 'active' : '' }}">{{ $translator->translate('Templates') }}</a>
+        </li> --}}
+        {{-- <li><a href="{{ route('blog') }}"
                 class="{{ Request::is('blog*') ? 'active' : '' }}">{{ $translator->translate('Blog') }}</a></li>
-        <li><a
-                href="{{ route('webinar') }}"class="{{ Request::is('webinar*') ? 'active' : '' }}">{{ $translator->translate('Webinar') }}</a>
+        <li> --}}
+        <a
+            href="{{ route('webinar') }}"class="{{ Request::is('webinar*') ? 'active' : '' }}">{{ $translator->translate('Education') }}</a>
         </li>
         <li><a href="{{ route('blank-page') }}">{{ $translator->translate('Partnership') }}</a></li>
         <li><a
