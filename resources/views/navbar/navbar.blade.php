@@ -58,9 +58,9 @@
 </style>
 <nav class="navbar">
     <div class="logo">
-        {{-- <a href=""> --}}
-        <img src="{{ asset('assets/icon/logo.png') }}" class="logo">
-        {{-- </a> --}}
+        <a href="{{ route('home') }}">
+            <img src="{{ asset('assets/icon/logo.png') }}" class="logo">
+        </a>
     </div>
     <ul class="nav-links">
         <li><a href="{{ route('home') }}"

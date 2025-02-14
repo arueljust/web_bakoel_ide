@@ -46,6 +46,10 @@ Route::get('/user-dashboard', function () {
     return view('user-dashboard.dashboard');
 })->name('user-dashboard')->middleware('translate');
 
+Route::get('/products/quiz', function () {
+    return view('quiz.index');
+})->name('quiz')->middleware('translate');
+
 Route::get('/blank-page', function () {
     return view('blank-page.index');
 })->name('blank-page')->middleware('translate');

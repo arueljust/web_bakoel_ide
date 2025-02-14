@@ -66,7 +66,7 @@
                     </div>
                     <div class="container-three">
                         <i class="fa-solid fa-comments"></i>
-                        <p class="text-with-border">{{ $translator->translate('Creative Consultant') }}</p>
+                        <p class="text-with-border">{{ $translator->translate('Creative Entrepreneur') }}</p>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
             <div class="testimonial-wrapper">
                 <div class="testimonial">
                     <div class="quote">“</div>
-                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="User 1" class="user-img">
+                    <img src="{{asset('img/Dwi_Nauli.jpg')}}" alt="User 1" class="user-img">
                     <h3>Mawar Indah</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.</p>
@@ -165,7 +165,7 @@
                 </div>
                 <div class="testimonial">
                     <div class="quote">“</div>
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User 2" class="user-img">
+                    <img src="{{asset('img/Antonius_Ardi.jpg')}}" alt="User 2" class="user-img">
                     <h3>Joko Santoso</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.</p>
@@ -173,7 +173,7 @@
                 </div>
                 <div class="testimonial">
                     <div class="quote">“</div>
-                    <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="User 3" class="user-img">
+                    <img src="{{asset('img/Ruben_Ray.jpg')}}" alt="User 3" class="user-img">
                     <h3>Siti Aisyah</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.</p>
